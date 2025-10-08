@@ -1,10 +1,10 @@
 <!-- Cabecera animada -->
 <p align="center">
   <a href="https://github.com/DavidTorro">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&vCenter=true&width=1000&lines=Hola%2C+soy+David+Torr%C3%B3+%F0%9F%91%8B;Estudiante+de+DAM+%E2%80%A2+IES+l'Estaci%C3%B3+Ontinyent;Desarrollo+Multiplataforma%2C+Flutter%2C+C%23%2C+Nest.js, AWS, Odoo,...;Aprendiendo+nuevas+tecnolog%C3%ADas%2C+aplicando+lo+aprendido+en+proyectos
-" alt="Typing SVG">
+    <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;duration=2200&amp;pause=900&amp;center=true&amp;vCenter=true&amp;width=1000&amp;lines=Hola%2C+soy+David+Torr%C3%B3+%F0%9F%91%8B;Estudiante+de+DAM+%E2%80%A2+IES+l%27Estaci%C3%B3+Ontinyent;Desarrollo+Multiplataforma%2C+Flutter%2C+C%23%2C+Nest.js%2C+AWS%2C+Odoo...;Aprendiendo+nuevas+tecnolog%C3%ADas%2C+aplicando+lo+aprendido+en+proyectos" />
   </a>
 </p>
+
 
 <h1 align="center">👨‍💻 David Torró — Estudiante de DAM</h1>
 
