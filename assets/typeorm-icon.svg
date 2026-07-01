@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-label="TypeORM">
+  <rect width="256" height="256" rx="60" fill="#FFFFFF" />
+
+  <g filter="url(#shadow)">
+    <g transform="translate(14 14) scale(0.38)">
+      <!-- Llave izquierda roja -->
+      <path
+        d="M148 55H109C79 55 64 72 63 105L60 245C59 271 51 281 30 281V319C51 319 59 329 60 355L63 495C64 528 79 545 109 545H148V513H128C103 513 91 499 91 473V361C91 331 78 309 52 300C78 291 91 269 91 239V127C91 101 103 87 128 87H148V55Z"
+        fill="#FF1808"
+      />
+
+      <!-- Llave izquierda naranja superior -->
+      <path
+        d="M148 55H109C79 55 64 72 63 105C67 93 76 87 92 87H148V55Z"
+        fill="#FFAE00"
+      />
+
+      <!-- Llave izquierda naranja inferior -->
+      <path
+        d="M148 545H109C79 545 64 528 63 495C67 507 76 513 92 513H148V545Z"
+        fill="#FFAE00"
+      />
+
+      <!-- Llave derecha roja -->
+      <path
+        d="M452 55H491C521 55 536 72 537 105L540 245C541 271 549 281 570 281V319C549 319 541 329 540 355L537 495C536 528 521 545 491 545H452V513H472C497 513 509 499 509 473V361C509 331 522 309 548 300C522 291 509 269 509 239V127C509 101 497 87 472 87H452V55Z"
+        fill="#FF1808"
+      />
+
+      <!-- Llave derecha naranja superior -->
+      <path
+        d="M452 55H491C521 55 536 72 537 105C533 93 524 87 508 87H452V55Z"
+        fill="#FFAE00"
+      />
+
+      <!-- Llave derecha naranja inferior -->
+      <path
+        d="M452 545H491C521 545 536 528 537 495C533 507 524 513 508 513H452V545Z"
+        fill="#FFAE00"
+      />
+
+      <!-- Documento superior -->
+      <rect x="200" y="124" width="134" height="158" rx="13" fill="white" stroke="#969696" stroke-width="6" />
+
+      <rect x="219" y="179" width="8" height="8" fill="#969696" />
+      <rect x="219" y="211" width="8" height="8" fill="#969696" />
+      <rect x="219" y="244" width="8" height="8" fill="#969696" />
+
+      <!-- Primera línea alargada hacia la izquierda -->
+      <rect x="220" y="153" width="96" height="7" fill="#969696" />
+      <rect x="239" y="180" width="77" height="7" fill="#969696" />
+      <rect x="239" y="212" width="77" height="7" fill="#969696" />
+      <rect x="239" y="245" width="77" height="7" fill="#969696" />
+
+      <!-- Documento inferior -->
+      <rect x="200" y="314" width="134" height="158" rx="13" fill="white" stroke="#969696" stroke-width="6" />
+
+      <rect x="219" y="370" width="8" height="8" fill="#969696" />
+      <rect x="219" y="403" width="8" height="8" fill="#969696" />
+      <rect x="219" y="435" width="8" height="8" fill="#969696" />
+
+      <!-- Primera línea alargada hacia la izquierda -->
+      <rect x="220" y="341" width="96" height="7" fill="#969696" />
+      <rect x="239" y="371" width="77" height="7" fill="#969696" />
+      <rect x="239" y="404" width="77" height="7" fill="#969696" />
+      <rect x="239" y="436" width="77" height="7" fill="#969696" />
+
+      <!-- Corchete central derecho -->
+      <path
+        d="M355 206H399V394H355"
+        stroke="#969696"
+        stroke-width="7"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+      />
+    </g>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#E9EDF4" />
+    </linearGradient>
+
+    <filter id="shadow" width="256" height="256" x="0" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,432 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Banner de David Torró</title>
+  <desc id="desc">SVG animado minimalista para README de GitHub con el texto David Torró, Desarrollador de software y una frase sobre experiencias web modernas, automatización, IA e infraestructura.</desc>
+
+  <defs>
+    <!-- Fondo general -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0A0F1E"/>
+    </linearGradient>
+
+    <radialGradient id="glowBg" cx="0.34" cy="0.5" r="0.55" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.2" fill="#60A5FA" fill-opacity="0.07"/>
+    </pattern>
+
+    <!-- Colores -->
+    <linearGradient id="accent" x1="180" y1="70" x2="1020" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="352" y1="100" x2="352" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CBD8EF"/>
+    </linearGradient>
+
+    <linearGradient id="titleShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="400" y1="240" x2="800" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#60A5FA" stop-opacity="1"/>
+      <stop offset="0.82" stop-color="#60A5FA" stop-opacity="1"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panelStroke" x1="210" y1="48" x2="990" y2="272" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFDBFE" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#60A5FA" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Sombras -->
+    <filter id="softShadow" x="140" y="20" width="920" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="26" flood-color="#1D4ED8" flood-opacity="0.18"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Fondo panel -->
+    <linearGradient id="panelFill" x1="200" y1="48" x2="1000" y2="272" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.07"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Máscara de brillo -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="0.60" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="clipPanel">
+      <rect x="200" y="48" width="800" height="224" rx="28"/>
+    </clipPath>
+
+    <clipPath id="clipBg">
+      <rect x="0" y="0" width="1200" height="320" rx="32"/>
+    </clipPath>
+
+    <!-- Zona de la card menos el panel (para partículas exteriores) -->
+    <mask id="maskOutside">
+      <rect x="0" y="0" width="1200" height="320" rx="32" fill="#FFFFFF"/>
+      <rect x="200" y="48" width="800" height="224" rx="28" fill="#000000"/>
+    </mask>
+
+    <!-- Recortes con la forma de las letras (medidas en atributos) -->
+    <clipPath id="titleClip">
+      <text x="600" y="138" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#FFFFFF">David Torró</text>
+    </clipPath>
+    <clipPath id="subtitleClip">
+      <text x="600" y="178" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" letter-spacing="4" fill="#FFFFFF">Desarrollador de software</text>
+    </clipPath>
+
+    <!-- Ventana del rodillo de frases -->
+    <clipPath id="phraseWindow">
+      <rect x="210" y="191" width="780" height="42"/>
+    </clipPath>
+
+    <style>
+      .title {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 58px;
+        font-weight: 800;
+        letter-spacing: -1.5px;
+        fill: url(#nameGrad);
+      }
+
+      .subtitle {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        fill: #60A5FA;
+      }
+
+      .phrase {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        fill: #DCE7F7;
+      }
+
+      .micro {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        fill: #93C5FD;
+        opacity: 0.75;
+      }
+
+      .fade-in  { opacity: 0; animation: fadeIn 1s ease forwards; }
+      .fade-in-2 { opacity: 0; animation: fadeIn 1s ease 0.15s forwards; }
+      .fade-in-3 { opacity: 0; animation: fadeIn 1s ease 0.30s forwards; }
+
+      .float-soft { animation: floatSoft 6.5s ease-in-out infinite; transform-origin: center; }
+      .float-text { animation: floatText 5s ease-in-out infinite; }
+      .reel-face {
+        opacity: 0;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: reelFace 72s linear infinite;
+        will-change: transform, opacity;
+      }
+      .pulse-soft { animation: pulseSoft 3.2s ease-in-out infinite; }
+      .node-blink   { animation: nodeBlink 3.8s ease-in-out infinite; }
+      .node-blink-2 { animation: nodeBlink 4.4s ease-in-out 0.8s infinite; }
+
+      .line-draw {
+        stroke-dasharray: 540;
+        stroke-dashoffset: 540;
+        animation: drawLine 1.6s ease 0.45s forwards, glowLine 3.8s ease-in-out 2.2s infinite;
+      }
+
+      .signal-left  { animation: signalLeft 4.8s ease-in-out infinite; }
+      .signal-right { animation: signalRight 4.8s ease-in-out 0.5s infinite; }
+      .shine-move   { animation: shineMove 6s linear 1.4s infinite; }
+      .border-run   { animation: borderRun 5s linear infinite; }
+      .title-sheen    { animation: titleSheen 6s ease-in-out 1.8s infinite; }
+      .subtitle-sheen { animation: titleSheen 6s ease-in-out 3.6s infinite; }
+
+      .particle    { animation: floatUp 9s ease-in-out infinite; }
+      .particle-2  { animation: floatUp 11s ease-in-out 1.5s infinite; }
+      .particle-3  { animation: floatUp 8s ease-in-out 3s infinite; }
+      .particle-4  { animation: floatUp 10.5s ease-in-out 0.6s infinite; }
+      .particle-5  { animation: driftUp 12s ease-in-out 2.2s infinite; }
+      .twinkle     { animation: twinkle 4s ease-in-out infinite; }
+      .twinkle-2   { animation: twinkle 5.5s ease-in-out 1.3s infinite; }
+      .twinkle-3   { animation: twinkle 6.5s ease-in-out 2.6s infinite; }
+
+      .cursor { animation: caret 1.1s steps(1) infinite; }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(6px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes floatSoft {
+        0%, 100% { transform: translateY(0px); }
+        50%      { transform: translateY(-3px); }
+      }
+      @keyframes floatText {
+        0%   { transform: translateY(-3.5px); }
+        50%  { transform: translateY(3.5px); }
+        100% { transform: translateY(-3.5px); }
+      }
+      /*
+       * Cada texto es una cara del cilindro. Al girar, la cara visible
+       * se aplana hacia arriba y la siguiente se despliega desde abajo.
+       */
+      @keyframes reelFace {
+        0% {
+          opacity: 0;
+          transform: translateY(26px) scaleY(0.08) scaleX(0.93);
+        }
+        0.08% {
+          opacity: 0.25;
+          transform: translateY(24px) scaleY(0.38) scaleX(0.95);
+        }
+        0.15% {
+          opacity: 0.58;
+          transform: translateY(18px) scaleY(0.71) scaleX(0.97);
+        }
+        0.23% {
+          opacity: 0.86;
+          transform: translateY(10px) scaleY(0.92) scaleX(0.99);
+        }
+        0.31%, 6.25% {
+          opacity: 1;
+          transform: translateY(0) scaleY(1) scaleX(1);
+        }
+        6.33% {
+          opacity: 0.86;
+          transform: translateY(-10px) scaleY(0.92) scaleX(0.99);
+        }
+        6.40% {
+          opacity: 0.58;
+          transform: translateY(-18px) scaleY(0.71) scaleX(0.97);
+        }
+        6.48% {
+          opacity: 0.25;
+          transform: translateY(-24px) scaleY(0.38) scaleX(0.95);
+        }
+        6.56%, 100% {
+          opacity: 0;
+          transform: translateY(-26px) scaleY(0.08) scaleX(0.93);
+        }
+      }
+      @keyframes pulseSoft {
+        0%, 100% { opacity: 0.28; }
+        50%      { opacity: 0.62; }
+      }
+      @keyframes nodeBlink {
+        0%, 100% { opacity: 0.18; r: 3; }
+        50%      { opacity: 1; r: 4.5; }
+      }
+      @keyframes drawLine { to { stroke-dashoffset: 0; } }
+      @keyframes glowLine {
+        0%, 100% { opacity: 0.75; }
+        50%      { opacity: 1; }
+      }
+      @keyframes signalLeft {
+        0%, 100% { opacity: 0.12; }
+        40%      { opacity: 0.85; }
+        60%      { opacity: 0.25; }
+      }
+      @keyframes signalRight {
+        0%, 100% { opacity: 0.15; }
+        45%      { opacity: 0.25; }
+        70%      { opacity: 0.9; }
+      }
+      @keyframes shineMove {
+        0%   { transform: translateX(-860px); }
+        100% { transform: translateX(860px); }
+      }
+      @keyframes borderRun {
+        from { stroke-dashoffset: 0; }
+        to   { stroke-dashoffset: -2000; }
+      }
+      @keyframes titleSheen {
+        0%        { transform: translateX(-80px); opacity: 0; }
+        10%       { opacity: 1; }
+        40%       { transform: translateX(500px); opacity: 1; }
+        50%, 100% { transform: translateX(500px); opacity: 0; }
+      }
+      @keyframes floatUp {
+        0%   { transform: translateY(0px); opacity: 0; }
+        15%  { opacity: 0.9; }
+        85%  { opacity: 0.5; }
+        100% { transform: translateY(-46px); opacity: 0; }
+      }
+      @keyframes driftUp {
+        0%   { transform: translate(0px, 0px); opacity: 0; }
+        20%  { opacity: 0.8; }
+        50%  { transform: translate(6px, -24px); }
+        80%  { opacity: 0.4; }
+        100% { transform: translate(-4px, -52px); opacity: 0; }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.12; }
+        50%      { opacity: 0.9; }
+      }
+      @keyframes caret {
+        0%, 50%   { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .fade-in, .fade-in-2, .fade-in-3 { opacity: 1 !important; }
+        .line-draw { stroke-dashoffset: 0 !important; }
+        .border-run { opacity: 0 !important; }
+        .title-sheen, .subtitle-sheen { opacity: 0 !important; }
+        .reel-face { opacity: 0 !important; transform: none !important; }
+        .reel-face:first-child { opacity: 1 !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Fondo con card, glow, textura -->
+  <g clip-path="url(#clipBg)">
+    <rect x="0" y="0" width="1200" height="320" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1200" height="320" fill="url(#glowBg)"/>
+    <rect x="0" y="0" width="1200" height="320" fill="url(#dots)"/>
+  </g>
+
+  <!-- Partículas EXTERIORES (card menos panel, no entran nunca) -->
+  <g fill="#93C5FD" mask="url(#maskOutside)">
+    <circle cx="90"  cy="80"  r="1.3" class="particle"/>
+    <circle cx="120" cy="150" r="1.2" class="twinkle"/>
+    <circle cx="60"  cy="220" r="1.4" class="particle-2"/>
+    <circle cx="150" cy="280" r="1.2" class="particle-4"/>
+    <circle cx="100" cy="120" r="1.1" class="twinkle-2"/>
+    <circle cx="170" cy="200" r="1.2" class="particle-5"/>
+    <circle cx="40"  cy="160" r="1.2" class="twinkle-3"/>
+    <circle cx="150" cy="60"  r="1.1" class="particle-3"/>
+    <circle cx="1110" cy="90"  r="1.3" class="particle-3"/>
+    <circle cx="1080" cy="160" r="1.2" class="twinkle"/>
+    <circle cx="1140" cy="230" r="1.4" class="particle"/>
+    <circle cx="1030" cy="120" r="1.1" class="particle-2"/>
+    <circle cx="1160" cy="200" r="1.2" class="twinkle-2"/>
+    <circle cx="1050" cy="270" r="1.3" class="particle-4"/>
+    <circle cx="1120" cy="140" r="1.1" class="twinkle-3"/>
+    <circle cx="1150" cy="60"  r="1.2" class="particle-5"/>
+    <circle cx="300" cy="25"  r="1.1" class="twinkle"/>
+    <circle cx="600" cy="30"  r="1.2" class="particle-5"/>
+    <circle cx="900" cy="20"  r="1.1" class="twinkle-2"/>
+    <circle cx="500" cy="35"  r="1.1" class="particle"/>
+    <circle cx="750" cy="28"  r="1.2" class="twinkle-3"/>
+    <circle cx="350" cy="295" r="1.2" class="particle-2"/>
+    <circle cx="650" cy="300" r="1.1" class="twinkle"/>
+    <circle cx="950" cy="290" r="1.2" class="particle-4"/>
+    <circle cx="500" cy="305" r="1.1" class="twinkle-3"/>
+    <circle cx="800" cy="298" r="1.2" class="particle"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="31.5" stroke="#1E293B" stroke-opacity="0.9"/>
+
+  <!-- Líneas técnicas externas -->
+  <g opacity="0.45">
+    <path d="M88 150H145L170 135H200" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" class="signal-left"/>
+    <path d="M104 176H153L184 160H200" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" class="signal-left"/>
+    <path d="M120 202H156L178 188H200" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" class="signal-left"/>
+
+    <circle cx="145" cy="150" r="3" fill="#60A5FA" class="node-blink"/>
+    <circle cx="153" cy="176" r="2.5" fill="#BFDBFE" class="node-blink-2"/>
+    <circle cx="178" cy="188" r="2.5" fill="#60A5FA" class="node-blink"/>
+
+    <path d="M1000 135H1030L1055 150H1112" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" class="signal-right"/>
+    <path d="M1000 160H1020L1048 176H1096" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" class="signal-right"/>
+    <path d="M1000 188H1018L1040 202H1080" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" class="signal-right"/>
+
+    <circle cx="1055" cy="150" r="3" fill="#60A5FA" class="node-blink-2"/>
+    <circle cx="1048" cy="176" r="2.5" fill="#BFDBFE" class="node-blink"/>
+    <circle cx="1080" cy="202" r="2.5" fill="#60A5FA" class="node-blink-2"/>
+  </g>
+
+  <!-- Panel principal -->
+  <g filter="url(#softShadow)" class="float-soft">
+    <rect x="200" y="48" width="800" height="224" rx="28" fill="url(#panelFill)"/>
+    <rect x="200.75" y="48.75" width="798.5" height="222.5" rx="27.25" stroke="url(#panelStroke)" stroke-opacity="0.7" stroke-width="1.5"/>
+    <rect x="200.75" y="48.75" width="798.5" height="222.5" rx="27.25" fill="none" stroke="#BFE3FF" stroke-width="2.5" stroke-linecap="round" pathLength="2000" stroke-dasharray="240 1760" class="border-run" filter="url(#tinyGlow)"/>
+  </g>
+
+  <!-- Partículas INTERIORES (recortadas al panel, no salen nunca) -->
+  <g fill="#BFDBFE" clip-path="url(#clipPanel)">
+    <circle cx="240" cy="110" r="1.4" class="particle"/>
+    <circle cx="250" cy="220" r="1.2" class="twinkle"/>
+    <circle cx="300" cy="90"  r="1.1" class="particle-4"/>
+    <circle cx="280" cy="250" r="1.3" class="particle-2"/>
+    <circle cx="230" cy="170" r="1.2" class="twinkle-2"/>
+    <circle cx="950" cy="110" r="1.4" class="particle-3"/>
+    <circle cx="930" cy="230" r="1.2" class="twinkle"/>
+    <circle cx="970" cy="160" r="1.1" class="particle-5"/>
+    <circle cx="900" cy="90"  r="1.2" class="particle"/>
+    <circle cx="910" cy="255" r="1.3" class="particle-2"/>
+    <circle cx="600" cy="72"  r="1.2" class="twinkle-3"/>
+    <circle cx="500" cy="255" r="1.1" class="twinkle"/>
+    <circle cx="700" cy="258" r="1.2" class="particle-4"/>
+    <circle cx="400" cy="78"  r="1.1" class="twinkle-2"/>
+    <circle cx="820" cy="80"  r="1.2" class="particle-5"/>
+    <circle cx="350" cy="250" r="1.1" class="twinkle-3"/>
+  </g>
+
+  <!-- Texto centrado en el panel, flotando suavemente -->
+  <g text-anchor="middle" class="float-text">
+    <text x="600" y="138" class="title fade-in-2">David Torró</text>
+    <text x="600" y="178" class="subtitle fade-in-3">Desarrollador de software</text>
+    <g clip-path="url(#phraseWindow)">
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:-0.22s">Creando experiencias web modernas, automatización, IA e infraestructura</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:4.28s">Aprendiendo desarrollo construyendo proyectos reales</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:8.78s">Frontend, backend, bots y homelab en proyectos reales</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:13.28s">Construyo proyectos mientras aprendo a hacerlos bien</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:17.78s">Desarrollo software con foco en estructura, práctica y despliegue</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:22.28s">Proyectos reales, código ordenado y servicios propios</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:26.78s">Full-stack en práctica: frontend, backend e infraestructura</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:31.28s">Aprendiendo a crear software limpio, útil y desplegable</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:35.78s">Código, APIs, automatización y servidores propios</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:40.28s">Desarrollo web, backend y homelab sin humo</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:44.78s">Construyendo proyectos reales con código que pueda mantener</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:49.28s">Software, servidores y automatización en mi propio entorno</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:53.78s">Del código al servidor, aprendiendo con proyectos reales</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:58.28s">Trasteando con IA local en proyectos donde tiene sentido</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:62.78s">Backend, bots, homelab y alguna que otra prueba con IA local</text>
+      <text x="600" y="216" class="phrase reel-face" style="animation-delay:67.28s">Proyectos reales, servicios propios y experimentos con IA local</text>
+    </g>
+  </g>
+
+  <!-- Línea viva inferior -->
+  <g class="fade-in-3">
+    <path d="M400 240H800" stroke="url(#lineGrad)" stroke-width="2.2" stroke-linecap="round" class="line-draw" filter="url(#tinyGlow)"/>
+    <circle cx="400" cy="240" r="3" fill="#60A5FA" class="node-blink"/>
+    <circle cx="800" cy="240" r="3" fill="#60A5FA" class="node-blink-2"/>
+  </g>
+</svg>

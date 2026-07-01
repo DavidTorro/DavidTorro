@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256" role="img" aria-label="i18n">
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="128" cy="128" r="74" fill="url(#globeFill)" opacity="0.18"/>
+    <circle cx="128" cy="128" r="74" stroke="url(#globeStroke)" stroke-width="8"/>
+
+```
+<path d="M54 128H202" stroke="url(#globeStroke)" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+<path d="M128 54C106 77 96 101 96 128C96 155 106 179 128 202" stroke="url(#globeStroke)" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+<path d="M128 54C150 77 160 101 160 128C160 155 150 179 128 202" stroke="url(#globeStroke)" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+
+<rect x="50" y="92" width="156" height="72" rx="22" fill="#242938"/>
+<rect x="50" y="92" width="156" height="72" rx="22" stroke="#3B4252" stroke-width="3"/>
+
+<text x="128" y="146" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="900" letter-spacing="-2">
+  <tspan fill="#38BDF8">i</tspan><tspan fill="#FFFFFF">18</tspan><tspan fill="#22C55E">n</tspan>
+</text>
+
+<circle cx="65" cy="70" r="18" fill="#38BDF8"/>
+<text x="65" y="78" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="900" fill="#FFFFFF">A</text>
+
+<circle cx="191" cy="186" r="18" fill="#22C55E"/>
+<text x="191" y="194" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">文</text>
+
+```
+
+  </g>
+
+  <defs>
+    <linearGradient id="globeFill" x1="54" y1="54" x2="202" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+
+```
+<linearGradient id="globeStroke" x1="54" y1="54" x2="202" y2="202" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#38BDF8"/>
+  <stop offset="1" stop-color="#22C55E"/>
+</linearGradient>
+
+<filter id="shadow" x="32" y="30" width="192" height="202" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+  <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+  <feOffset dy="4"/>
+  <feGaussianBlur stdDeviation="8"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.18 0"/>
+  <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow"/>
+  <feBlend in="SourceGraphic" in2="effect1_dropShadow" mode="normal" result="shape"/>
+</filter>
+```
+
+  </defs>
+</svg>
