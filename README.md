@@ -226,6 +226,7 @@ Plugin para Obsidian que permite crear tarjetas de navegación entre notas media
   <strong>Ver proyecto →</strong>
 </a>
 
+  <br /><br />
   </td>
   <td width="50%" valign="top">
 
@@ -242,7 +243,7 @@ Herramienta de línea de comandos para crear archivos `README.md` profesionales 
 <a href="https://github.com/DavidTorro/README-GENERATOR">
   <strong>Ver proyecto →</strong>
 </a>
-
+  <br /><br />
   </td>
   </tr>
 
