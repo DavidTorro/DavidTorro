@@ -279,8 +279,6 @@ Infraestructura propia para desplegar servicios, bases de datos, aplicaciones, a
   <img src="https://img.shields.io/badge/Coolify-6B16ED?logo=coolify&logoColor=white" alt="Coolify" />
 </p>
 
-<strong>Infraestructura y experimentación personal</strong>
-
   </td>
   </tr>
 </table>
