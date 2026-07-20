@@ -29,8 +29,8 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
 
 <!-- markdownlint-disable MD033 MD045 MD009 -->
 
-<div align="center">
-  <p><strong>Lenguajes de Programación</strong></p>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: bold;">
+  <p>Lenguajes de Programación</p>
   <a>
     <img title="Java" src="https://skillicons.dev/icons?i=java&theme=light" />
     <img title="C#" src="https://skillicons.dev/icons?i=cs&theme=light" />
@@ -43,9 +43,7 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Dart" src="https://skillicons.dev/icons?i=dart&theme=dark" />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Desarrollo Backend</strong></p>
+  <p style="margin-top: 16px;">Desarrollo Backend</p>
   <a>
    <img title="Node.js" src="https://skillicons.dev/icons?i=nodejs&theme=dark" />
     <img title="NestJS" src="https://skillicons.dev/icons?i=nestjs&theme=dark" />
@@ -74,9 +72,7 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Desarrollo Frontend</strong></p>
+  <p style="margin-top: 16px;">Desarrollo Frontend</p>
   <a href="https://skillicons.dev">
     <img title="React" src="https://skillicons.dev/icons?i=react&theme=dark" />
     <img title="Astro" src="https://skillicons.dev/icons?i=astro&theme=dark" />
@@ -85,17 +81,13 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Bootstrap" src="https://skillicons.dev/icons?i=bootstrap&theme=dark" />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Desarrollo Móvil/Multiplataforma</strong></p>
+  <p style="margin-top: 16px;">Desarrollo Móvil/Multiplataforma</p>
   <a>
     <img title="Flutter" src="https://skillicons.dev/icons?i=flutter&theme=dark" />
     <img title="React Native" src="https://skillicons.dev/icons?i=react&theme=dark" />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Bases de Datos y ORMs</strong></p>
+  <p style="margin-top: 16px;">Bases de Datos y ORMs</p>
   <a>
     <img title="MySQL" src="https://skillicons.dev/icons?i=mysql&theme=light" />
     <img title="PostgreSQL" src="https://skillicons.dev/icons?i=postgres&theme=light" />
@@ -111,17 +103,13 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Supabase" src="https://skillicons.dev/icons?i=supabase&theme=dark" />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Testing</strong></p>
+  <p style="margin-top: 16px;">Testing</p>
   <a>
     <img title="Jest" src="https://skillicons.dev/icons?i=jest&theme=light" />
     <img title="Vitest" src="https://skillicons.dev/icons?i=vitest&theme=dark" />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Documentación</strong></p>
+  <p style="margin-top: 16px;">Documentación</p>
   <a>
     <img
       src="assets/swagger-icon.svg"
@@ -141,9 +129,7 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Infraestructura y DevOps</strong></p>
+  <p style="margin-top: 16px;">Infraestructura y DevOps</p>
   <a>
     <img title="Docker" src="https://skillicons.dev/icons?i=docker&theme=light" />
     <img title="Nginx" src="https://skillicons.dev/icons?i=nginx&theme=dark" />
@@ -174,17 +160,13 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><stron>Nube</stron></p>
+  <p style="margin-top: 16px;">Nube</p>
   <a>
     <img title="AWS" src="https://skillicons.dev/icons?i=aws&theme=light" />
     <img title="Azure" src="https://skillicons.dev/icons?i=azure&theme=dark" />
   </a>
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Herramientas</strong></p>
+  <p style="margin-top: 16px;">Herramientas</p>
   <a>
     <img title="Visual Studio Code" src="https://skillicons.dev/icons?i=vscode&theme=dark" />
     <img title="Obsidian" src="https://skillicons.dev/icons?i=obsidian&theme=dark" />
@@ -193,9 +175,7 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Illustrator" src="https://skillicons.dev/icons?i=illustrator&theme=dark" />
   </a> 
 
-  <div align="center">&nbsp;</div>
-
-  <p><strong>Sistemas</strong></p>
+  <p style="margin-top: 16px;">Sistemas</p>
   <a>
     <img title="macOS" src="https://skillicons.dev/icons?i=apple&theme=light" />
     <img title="Linux" src="https://skillicons.dev/icons?i=linux&theme=dark" />
@@ -209,44 +189,80 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
 
 ## 🖥️ Algunos de mis proyectos
 
-### 📝 Note Nav Cards — Plugin para Obsidian
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-Plugin de Obsidian para crear tarjetas de navegación entre notas usando bloques de código simples y configurables.
+### 📝 Note Nav Cards
+
+Plugin para Obsidian que permite crear tarjetas de navegación entre notas mediante bloques de código simples y configurables.
 
 <p>
   <img src="https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white" alt="Obsidian" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
-🔗 **Repositorio:** [Ver proyecto](https://github.com/DavidTorro/Obsidian-Note-Nav-Cards-Plugin)
+<a href="https://github.com/DavidTorro/Obsidian-Note-Nav-Cards-Plugin">
+  <strong>Ver proyecto →</strong>
+</a>
 
----
+  </td>
+  <td width="50%" valign="top">
 
-### 🌐 LinkedFlow — Automatización para LinkedIn
+### 📄 README Generator
 
-Herramienta enfocada en automatización y generación de comentarios para publicaciones de LinkedIn.
+Herramienta de línea de comandos para crear archivos `README.md` profesionales de forma guiada, rápida y personalizable.
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/CLI-4EAA25?logo=gnubash&logoColor=white" alt="CLI" />
+</p>
+
+<a href="https://github.com/DavidTorro/README-GENERATOR">
+  <strong>Ver proyecto →</strong>
+</a>
+
+  </td>
+  </tr>
+
+  <tr>
+    <td width="50%" valign="top">
+
+### 🌐 LinkedFlow
+
+Plataforma enfocada en la automatización, generación de contenido y gestión de interacciones para LinkedIn.
 
 <p>
   <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/IA%20local-242938?logo=ollama&logoColor=white" alt="IA local" />
 </p>
 
-🔗 **Repositorio:** [Ver proyecto](https://github.com/DavidTorro/LINKEDFLOW)
+<a href="https://github.com/DavidTorro/LINKEDFLOW">
+  <strong>Ver proyecto →</strong>
+</a>
 
----
+  </td>
+  <td width="50%" valign="top">
 
 ### 🛰️ Homelab personal
 
-Infraestructura propia para aprender despliegues, bases de datos, servicios internos, túneles seguros, automatización y entornos reales.
+Infraestructura propia para desplegar servicios, bases de datos, aplicaciones, automatizaciones y entornos de desarrollo reales.
 
 <p>
   <img src="https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white" alt="Proxmox" />
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Coolify-6B16ED?logo=coolify&logoColor=white" alt="Coolify" />
 </p>
+
+<strong>Infraestructura y experimentación personal</strong>
+
+  </td>
+  </tr>
+</table>
 
 ---
 
