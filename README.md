@@ -29,8 +29,8 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
 
 <!-- markdownlint-disable MD033 MD045 MD009 -->
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: bold;">
-  <p>Lenguajes de Programación</p>
+<div align="center">
+  <p><strong>Lenguajes de Programación</strong></p>
   <a>
     <img title="Java" src="https://skillicons.dev/icons?i=java&theme=light" />
     <img title="C#" src="https://skillicons.dev/icons?i=cs&theme=light" />
@@ -43,7 +43,9 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Dart" src="https://skillicons.dev/icons?i=dart&theme=dark" />
   </a>
 
-  <p style="margin-top: 16px;">Desarrollo Backend</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Desarrollo Backend</strong></p>
   <a>
    <img title="Node.js" src="https://skillicons.dev/icons?i=nodejs&theme=dark" />
     <img title="NestJS" src="https://skillicons.dev/icons?i=nestjs&theme=dark" />
@@ -72,7 +74,9 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     />
   </a>
 
-  <p style="margin-top: 16px;">Desarrollo Frontend</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Desarrollo Frontend</strong></p>
   <a href="https://skillicons.dev">
     <img title="React" src="https://skillicons.dev/icons?i=react&theme=dark" />
     <img title="Astro" src="https://skillicons.dev/icons?i=astro&theme=dark" />
@@ -81,13 +85,17 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Bootstrap" src="https://skillicons.dev/icons?i=bootstrap&theme=dark" />
   </a>
 
-  <p style="margin-top: 16px;">Desarrollo Móvil/Multiplataforma</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Desarrollo Móvil/Multiplataforma</strong></p>
   <a>
     <img title="Flutter" src="https://skillicons.dev/icons?i=flutter&theme=dark" />
     <img title="React Native" src="https://skillicons.dev/icons?i=react&theme=dark" />
   </a>
 
-  <p style="margin-top: 16px;">Bases de Datos y ORMs</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Bases de Datos y ORMs</strong></p>
   <a>
     <img title="MySQL" src="https://skillicons.dev/icons?i=mysql&theme=light" />
     <img title="PostgreSQL" src="https://skillicons.dev/icons?i=postgres&theme=light" />
@@ -103,13 +111,17 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Supabase" src="https://skillicons.dev/icons?i=supabase&theme=dark" />
   </a>
 
-  <p style="margin-top: 16px;">Testing</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Testing</strong></p>
   <a>
     <img title="Jest" src="https://skillicons.dev/icons?i=jest&theme=light" />
     <img title="Vitest" src="https://skillicons.dev/icons?i=vitest&theme=dark" />
   </a>
 
-  <p style="margin-top: 16px;">Documentación</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Documentación</strong></p>
   <a>
     <img
       src="assets/swagger-icon.svg"
@@ -129,7 +141,9 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     />
   </a>
 
-  <p style="margin-top: 16px;">Infraestructura y DevOps</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Infraestructura y DevOps</strong></p>
   <a>
     <img title="Docker" src="https://skillicons.dev/icons?i=docker&theme=light" />
     <img title="Nginx" src="https://skillicons.dev/icons?i=nginx&theme=dark" />
@@ -160,13 +174,17 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     />
   </a>
 
-  <p style="margin-top: 16px;">Nube</p>
+  <div align="center">&nbsp;</div>
+
+  <p><stron>Nube</stron></p>
   <a>
     <img title="AWS" src="https://skillicons.dev/icons?i=aws&theme=light" />
     <img title="Azure" src="https://skillicons.dev/icons?i=azure&theme=dark" />
   </a>
 
-  <p style="margin-top: 16px;">Herramientas</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Herramientas</strong></p>
   <a>
     <img title="Visual Studio Code" src="https://skillicons.dev/icons?i=vscode&theme=dark" />
     <img title="Obsidian" src="https://skillicons.dev/icons?i=obsidian&theme=dark" />
@@ -175,7 +193,9 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
     <img title="Illustrator" src="https://skillicons.dev/icons?i=illustrator&theme=dark" />
   </a> 
 
-  <p style="margin-top: 16px;">Sistemas</p>
+  <div align="center">&nbsp;</div>
+
+  <p><strong>Sistemas</strong></p>
   <a>
     <img title="macOS" src="https://skillicons.dev/icons?i=apple&theme=light" />
     <img title="Linux" src="https://skillicons.dev/icons?i=linux&theme=dark" />
