@@ -31,37 +31,69 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
 
 <div align="center">
   <p><strong>Lenguajes de Programación</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=java&theme=light" alt="Java" title="Java" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=cs&theme=light" alt="C#" title="C#" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" title="Python" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=php&theme=dark" alt="PHP" title="PHP" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=html&theme=light" alt="HTML" title="HTML" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=css&theme=light" alt="CSS" title="CSS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=js&theme=light" alt="JavaScript" title="JavaScript" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=ts&theme=light" alt="TypeScript" title="TypeScript" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=dart&theme=dark" alt="Dart" title="Dart" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Desarrollo Backend</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Node.js" title="Node.js" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=nestjs&theme=dark" alt="NestJS" title="NestJS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=fastapi&theme=light" alt="FastAPI" title="FastAPI" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=dotnet&theme=light" alt=".NET" title=".NET" width="48" height="48" /> <img src="assets/odoo-icon.svg" alt="Odoo" title="Odoo" width="48" height="48" /> <img src="assets/jwt-icon.svg" alt="JWT" title="JWT" width="48" height="48" /> <img src="assets/i18n-icon.svg" alt="i18n" title="i18n" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Desarrollo Frontend</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React" title="React" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=astro&theme=dark" alt="Astro" title="Astro" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=vite&theme=light" alt="Vite" title="Vite" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" alt="TailwindCSS" title="TailwindCSS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" alt="Bootstrap" title="Bootstrap" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Desarrollo Móvil/Multiplataforma</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=flutter&theme=dark" alt="Flutter" title="Flutter" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React Native" title="React Native" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Bases de Datos y ORMs</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="MySQL" title="MySQL" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=postgres&theme=light" alt="PostgreSQL" title="PostgreSQL" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=mongodb&theme=light" alt="MongoDB" title="MongoDB" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=prisma&theme=light" alt="Prisma" title="Prisma" width="48" height="48" /> <img src="assets/typeorm-icon.svg" alt="TypeORM" title="TypeORM" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase" title="Supabase" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Testing</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=jest&theme=light" alt="Jest" title="Jest" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=vitest&theme=dark" alt="Vitest" title="Vitest" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Documentación</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="assets/swagger-icon.svg" alt="Swagger" title="Swagger" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=markdown&theme=dark" alt="Markdown" title="Markdown" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=postman&theme=light" alt="Postman" title="Postman" width="48" height="48" /> <img src="assets/docusaurus-icon.svg" alt="Docusaurus" title="Docusaurus" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Infraestructura y DevOps</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=docker&theme=light" alt="Docker" title="Docker" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=nginx&theme=dark" alt="Nginx" title="Nginx" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=npm&theme=light" alt="NPM" title="NPM" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=cloudflare&theme=light" alt="Cloudflare" title="Cloudflare" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=git&theme=light" alt="Git" title="Git" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" title="GitHub" width="48" height="48" /> <img src="assets/proxmox-icon.svg" alt="Proxmox" title="Proxmox" width="48" height="48" /> <img src="assets/coolify-icon.svg" alt="Coolify" title="Coolify" width="48" height="48" /> <img src="assets/ollama-icon.svg" alt="Ollama" title="Ollama" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Nube</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=aws&theme=light" alt="AWS" title="AWS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=azure&theme=dark" alt="Azure" title="Azure" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Herramientas</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="Visual Studio Code" title="Visual Studio Code" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=obsidian&theme=dark" alt="Obsidian" title="Obsidian" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" title="Figma" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=photoshop&theme=dark" alt="Photoshop" title="Photoshop" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=illustrator&theme=dark" alt="Illustrator" title="Illustrator" width="48" height="48" /></span></p>
 
+  </a>
+
   <p><strong>Sistemas</strong></p>
+  <a href="#stack-y-herramientas">
   <p align="center"><span><img src="https://skillicons.dev/icons?i=apple&theme=light" alt="macOS" title="macOS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" title="Linux" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=windows&theme=dark" alt="Windows" title="Windows" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash" title="Bash" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=powershell&theme=dark" alt="PowerShell" title="PowerShell" width="48" height="48" /></span></p>
+  </a>
 </div>
 
 ---
