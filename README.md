@@ -6,7 +6,7 @@
 
 Soy **David Torró**, desarrollador de software centrado en crear proyectos reales, útiles y bien estructurados.
 
-Me gusta construir cosas que no se queden solo en la teoría: aplicaciones web, APIs, bots, automatizaciones, servicios propios e infraestructura.
+Me gusta construir cosas que no se queden solo en la teoría: aplicaciones web, APIs, bots, automatizaciones, servicios propios e infraestructura. 
 
 Aprendo haciendo, pero intentando hacerlo con cabeza: código limpio, arquitectura clara y proyectos que pueda mantener y evolucionar con facilidad.
 
@@ -31,68 +31,177 @@ Mi enfoque está bastante claro: **crear software que funcione, se entienda y pu
 
 <div align="center">
   <p><strong>Lenguajes de Programación</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=java&theme=light" alt="Java" title="Java" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=cs&theme=light" alt="C#" title="C#" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" title="Python" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=php&theme=dark" alt="PHP" title="PHP" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=html&theme=light" alt="HTML" title="HTML" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=css&theme=light" alt="CSS" title="CSS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=js&theme=light" alt="JavaScript" title="JavaScript" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=ts&theme=light" alt="TypeScript" title="TypeScript" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=dart&theme=dark" alt="Dart" title="Dart" width="48" height="48" /></span></p>
-
+  <a>
+    <img title="Java" src="https://skillicons.dev/icons?i=java&theme=light" />
+    <img title="C#" src="https://skillicons.dev/icons?i=cs&theme=light" />
+    <img title="Python" src="https://skillicons.dev/icons?i=python&theme=dark" />
+    <img title="PHP" src="https://skillicons.dev/icons?i=php&theme=dark" />
+    <img title="HTML" src="https://skillicons.dev/icons?i=html&theme=light" />
+    <img title="CSS" src="https://skillicons.dev/icons?i=css&theme=light" />
+    <img title="JavaScript" src="https://skillicons.dev/icons?i=js&theme=light" />
+    <img title="TypeScript" src="https://skillicons.dev/icons?i=ts&theme=light" />
+    <img title="Dart" src="https://skillicons.dev/icons?i=dart&theme=dark" />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Desarrollo Backend</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Node.js" title="Node.js" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=nestjs&theme=dark" alt="NestJS" title="NestJS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=fastapi&theme=light" alt="FastAPI" title="FastAPI" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=dotnet&theme=light" alt=".NET" title=".NET" width="48" height="48" /> <img src="assets/odoo-icon.svg" alt="Odoo" title="Odoo" width="48" height="48" /> <img src="assets/jwt-icon.svg" alt="JWT" title="JWT" width="48" height="48" /> <img src="assets/i18n-icon.svg" alt="i18n" title="i18n" width="48" height="48" /></span></p>
-
+  <a>
+   <img title="Node.js" src="https://skillicons.dev/icons?i=nodejs&theme=dark" />
+    <img title="NestJS" src="https://skillicons.dev/icons?i=nestjs&theme=dark" />
+    <img title="FastAPI" src="https://skillicons.dev/icons?i=fastapi&theme=light" />
+    <img title=".NET" src="https://skillicons.dev/icons?i=dotnet&theme=light" />
+    <img
+      src="assets/odoo-icon.svg"
+      alt="Odoo"
+      title="Odoo"
+      width="48"
+      height="48"
+    />
+    <img
+      src="assets/jwt-icon.svg"
+      alt="JWT"
+      title="JWT"
+      width="48"
+      height="48"
+    />
+    <img
+      src="assets/i18n-icon.svg"
+      alt="i18n"
+      title="i18n"
+      width="48"
+      height="48"
+    />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Desarrollo Frontend</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React" title="React" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=astro&theme=dark" alt="Astro" title="Astro" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=vite&theme=light" alt="Vite" title="Vite" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" alt="TailwindCSS" title="TailwindCSS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" alt="Bootstrap" title="Bootstrap" width="48" height="48" /></span></p>
-
+  <a href="https://skillicons.dev">
+    <img title="React" src="https://skillicons.dev/icons?i=react&theme=dark" />
+    <img title="Astro" src="https://skillicons.dev/icons?i=astro&theme=dark" />
+    <img title="Vite" src="https://skillicons.dev/icons?i=vite&theme=light" />
+    <img title="TailwindCSS" src="https://skillicons.dev/icons?i=tailwind&theme=dark" />
+    <img title="Bootstrap" src="https://skillicons.dev/icons?i=bootstrap&theme=dark" />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Desarrollo Móvil/Multiplataforma</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=flutter&theme=dark" alt="Flutter" title="Flutter" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React Native" title="React Native" width="48" height="48" /></span></p>
-
+  <a>
+    <img title="Flutter" src="https://skillicons.dev/icons?i=flutter&theme=dark" />
+    <img title="React Native" src="https://skillicons.dev/icons?i=react&theme=dark" />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Bases de Datos y ORMs</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="MySQL" title="MySQL" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=postgres&theme=light" alt="PostgreSQL" title="PostgreSQL" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=mongodb&theme=light" alt="MongoDB" title="MongoDB" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=prisma&theme=light" alt="Prisma" title="Prisma" width="48" height="48" /> <img src="assets/typeorm-icon.svg" alt="TypeORM" title="TypeORM" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase" title="Supabase" width="48" height="48" /></span></p>
-
+  <a>
+    <img title="MySQL" src="https://skillicons.dev/icons?i=mysql&theme=light" />
+    <img title="PostgreSQL" src="https://skillicons.dev/icons?i=postgres&theme=light" />
+    <img title="MongoDB" src="https://skillicons.dev/icons?i=mongodb&theme=light" />
+    <img title="Prisma" src="https://skillicons.dev/icons?i=prisma&theme=light" />
+    <img
+      src="assets/typeorm-icon.svg"
+      alt="TypeORM"
+      title="TypeORM"
+      width="48"
+      height="48"
+    />
+    <img title="Supabase" src="https://skillicons.dev/icons?i=supabase&theme=dark" />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Testing</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=jest&theme=light" alt="Jest" title="Jest" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=vitest&theme=dark" alt="Vitest" title="Vitest" width="48" height="48" /></span></p>
-
+  <a>
+    <img title="Jest" src="https://skillicons.dev/icons?i=jest&theme=light" />
+    <img title="Vitest" src="https://skillicons.dev/icons?i=vitest&theme=dark" />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Documentación</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="assets/swagger-icon.svg" alt="Swagger" title="Swagger" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=markdown&theme=dark" alt="Markdown" title="Markdown" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=postman&theme=light" alt="Postman" title="Postman" width="48" height="48" /> <img src="assets/docusaurus-icon.svg" alt="Docusaurus" title="Docusaurus" width="48" height="48" /></span></p>
-
+  <a>
+    <img
+      src="assets/swagger-icon.svg"
+      alt="Swagger"
+      title="Swagger"
+      width="48"
+      height="48"
+    />
+    <img title="Markdown" src="https://skillicons.dev/icons?i=markdown&theme=dark" />
+    <img title="Postman" src="https://skillicons.dev/icons?i=postman&theme=light" />
+    <img
+      src="assets/docusaurus-icon.svg"
+      alt="Docusaurus"
+      title="Docusaurus"
+      width="48"
+      height="48"
+    />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Infraestructura y DevOps</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=docker&theme=light" alt="Docker" title="Docker" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=nginx&theme=dark" alt="Nginx" title="Nginx" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=npm&theme=light" alt="NPM" title="NPM" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=cloudflare&theme=light" alt="Cloudflare" title="Cloudflare" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=git&theme=light" alt="Git" title="Git" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" title="GitHub" width="48" height="48" /> <img src="assets/proxmox-icon.svg" alt="Proxmox" title="Proxmox" width="48" height="48" /> <img src="assets/coolify-icon.svg" alt="Coolify" title="Coolify" width="48" height="48" /> <img src="assets/ollama-icon.svg" alt="Ollama" title="Ollama" width="48" height="48" /></span></p>
-
+  <a>
+    <img title="Docker" src="https://skillicons.dev/icons?i=docker&theme=light" />
+    <img title="Nginx" src="https://skillicons.dev/icons?i=nginx&theme=dark" />
+    <img title="NPM" src="https://skillicons.dev/icons?i=npm&theme=light" />
+    <img title="Cloudflare" src="https://skillicons.dev/icons?i=cloudflare&theme=light" />
+    <img title="Git" src="https://skillicons.dev/icons?i=git&theme=light" />
+    <img title="GitHub" src="https://skillicons.dev/icons?i=github&theme=dark" />
+    <img
+      src="assets/proxmox-icon.svg"
+      alt="Proxmox"
+      title="Proxmox"
+      width="48"
+      height="48"
+    />
+    <img
+      src="assets/coolify-icon.svg"
+      alt="Coolify"
+      title="Coolify"
+      width="48"
+      height="48"
+    />
+    <img
+      src="assets/ollama-icon.svg"
+      alt="Ollama"
+      title="Ollama"
+      width="48"
+      height="48"
+    />
   </a>
 
-  <p><strong>Nube</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=aws&theme=light" alt="AWS" title="AWS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=azure&theme=dark" alt="Azure" title="Azure" width="48" height="48" /></span></p>
+  <div align="center">&nbsp;</div>
 
+  <p><stron>Nube</stron></p>
+  <a>
+    <img title="AWS" src="https://skillicons.dev/icons?i=aws&theme=light" />
+    <img title="Azure" src="https://skillicons.dev/icons?i=azure&theme=dark" />
   </a>
+
+  <div align="center">&nbsp;</div>
 
   <p><strong>Herramientas</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="Visual Studio Code" title="Visual Studio Code" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=obsidian&theme=dark" alt="Obsidian" title="Obsidian" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" title="Figma" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=photoshop&theme=dark" alt="Photoshop" title="Photoshop" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=illustrator&theme=dark" alt="Illustrator" title="Illustrator" width="48" height="48" /></span></p>
+  <a>
+    <img title="Visual Studio Code" src="https://skillicons.dev/icons?i=vscode&theme=dark" />
+    <img title="Obsidian" src="https://skillicons.dev/icons?i=obsidian&theme=dark" />
+    <img title="Figma" src="https://skillicons.dev/icons?i=figma&theme=dark" />
+    <img title="Photoshop" src="https://skillicons.dev/icons?i=photoshop&theme=dark" />
+    <img title="Illustrator" src="https://skillicons.dev/icons?i=illustrator&theme=dark" />
+  </a> 
 
-  </a>
+  <div align="center">&nbsp;</div>
 
   <p><strong>Sistemas</strong></p>
-  <a href="#stack-y-herramientas">
-  <p align="center"><span><img src="https://skillicons.dev/icons?i=apple&theme=light" alt="macOS" title="macOS" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" title="Linux" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=windows&theme=dark" alt="Windows" title="Windows" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash" title="Bash" width="48" height="48" /> <img src="https://skillicons.dev/icons?i=powershell&theme=dark" alt="PowerShell" title="PowerShell" width="48" height="48" /></span></p>
+  <a>
+    <img title="macOS" src="https://skillicons.dev/icons?i=apple&theme=light" />
+    <img title="Linux" src="https://skillicons.dev/icons?i=linux&theme=dark" />
+    <img title="Windows" src="https://skillicons.dev/icons?i=windows&theme=dark" />
+    <img title="Bash" src="https://skillicons.dev/icons?i=bash&theme=dark" />
+    <img title="PowerShell" src="https://skillicons.dev/icons?i=powershell&theme=dark" />
   </a>
 </div>
 
@@ -168,9 +277,6 @@ Infraestructura propia para desplegar servicios, bases de datos, aplicaciones, a
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare" />
   <img src="https://img.shields.io/badge/Coolify-6B16ED?logo=coolify&logoColor=white" alt="Coolify" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white" alt="Ollama" />
 </p>
 
   </td>
