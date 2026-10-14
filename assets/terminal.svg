@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Terminal profile banner for David Torró">
+  <title>David Torró — Full-Stack Software Developer</title>
+  <desc>Animated terminal introduction for David Torró. Commands are revealed from left to right without fading.</desc>
+
+  <!--
+    EDITABLE:
+    Change the text inside the groups marked COMMAND 1, COMMAND 2 and COMMAND 3.
+    The x/y positions keep every terminal row fixed, so text cannot collapse.
+  -->
+  <defs>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+      <feOffset dy="7"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- One 10-second timeline: rows type in order, then the terminal clears once. -->
+    <clipPath id="line1"><rect x="250" y="90" width="0" height="22"><animate attributeName="width" values="0;82;82" keyTimes="0;.06;1" dur="10s" calcMode="linear" repeatCount="1" fill="freeze"/></rect></clipPath>
+    <clipPath id="line2"><rect x="76" y="120" width="0" height="22"><animate attributeName="width" values="0;0;700;700" keyTimes="0;.06;.06;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/></rect></clipPath>
+    <clipPath id="line3"><rect x="250" y="165" width="0" height="22"><animate attributeName="width" values="0;0;142;142" keyTimes="0;.12;.18;1" dur="10s" calcMode="linear" repeatCount="1" fill="freeze"/></rect></clipPath>
+    <clipPath id="line4"><rect x="76" y="195" width="0" height="22"><animate attributeName="width" values="0;0;700;700" keyTimes="0;.18;.18;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/></rect></clipPath>
+    <clipPath id="line5"><rect x="76" y="220" width="0" height="22"><animate attributeName="width" values="0;0;700;700" keyTimes="0;.18;.18;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/></rect></clipPath>
+    <clipPath id="line6"><rect x="250" y="265" width="0" height="22"><animate attributeName="width" values="0;0;122;122" keyTimes="0;.24;.30;1" dur="10s" calcMode="linear" repeatCount="1" fill="freeze"/></rect></clipPath>
+    <clipPath id="line7"><rect x="76" y="295" width="0" height="22"><animate attributeName="width" values="0;0;1000;1000" keyTimes="0;.30;.30;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/></rect></clipPath>
+
+    <style>
+      .terminal { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: 14px; }
+      .animated { display: block; }
+      .static { display: none; }
+      @media (prefers-reduced-motion: reduce) {
+        .animated { display: none; }
+        .static { display: block; }
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="50" y="25" width="1100" height="390" rx="12" fill="#111719"/>
+    <rect x="50" y="25" width="1100" height="38" rx="12" fill="#20282c"/>
+    <rect x="50" y="45" width="1100" height="18" fill="#20282c"/>
+    <line x1="50" y1="63" x2="1150" y2="63" stroke="#090c0e"/>
+  </g>
+  <circle cx="78" cy="44" r="6" fill="#ff5f56"/>
+  <circle cx="99" cy="44" r="6" fill="#ffbd2e"/>
+  <circle cx="120" cy="44" r="6" fill="#27c93f"/>
+  <text x="600" y="48" text-anchor="middle" class="terminal" font-size="11" fill="#849096" letter-spacing="1.5">david@davidtorro — zsh</text>
+
+  <!-- Animated terminal. Text is revealed horizontally in one continuous sequence. -->
+  <g class="terminal animated">
+    <!-- COMMAND 1 -->
+    <g fill="#45C5BC">    <text x="76" y="105">david@davidtorro</text><text x="218" y="105" fill="#718087">:~$</text></g>
+    <g clip-path="url(#line1)">
+      <text x="250" y="105" fill="#e7edef">whoami</text>
+    </g>
+    <g clip-path="url(#line2)">
+      <text x="76" y="135" fill="#e7edef">David Torró — Full-Stack Software Developer</text>
+    </g>
+
+    <!-- COMMAND 2 -->
+    <g fill="#45C5BC" opacity="0">
+      <text x="76" y="180">david@davidtorro</text><text x="218" y="180" fill="#718087">:~$</text>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.06;.06;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/>
+    </g>
+    <g clip-path="url(#line3)">
+      <text x="250" y="180" fill="#e7edef">cat stack.md</text>
+    </g>
+    <g clip-path="url(#line4)">
+      <text x="76" y="210" fill="#45C5BC">backend</text><text x="166" y="210" fill="#d5dddf">TypeScript · Node.js · NestJS · Python · FastAPI</text>
+    </g>
+    <g clip-path="url(#line5)">
+      <text x="76" y="235" fill="#45C5BC">frontend / infra</text><text x="250" y="235" fill="#d5dddf">React · Astro · Linux · Docker · Proxmox · Cloudflare</text>
+    </g>
+
+    <!-- COMMAND 3 -->
+    <g fill="#45C5BC" opacity="0">
+      <text x="76" y="280">david@davidtorro</text><text x="218" y="280" fill="#718087">:~$</text>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.18;.18;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/>
+    </g>
+    <g clip-path="url(#line6)">
+      <text x="250" y="280" fill="#e7edef">contact --all</text>
+    </g>
+    <g clip-path="url(#line7)">
+      <text x="76" y="310" fill="#9bd8d2">davidtorro.com · linkedin.com/in/david-torró-bautista-52b97a327 · davidtorro.works@gmail.com</text>
+    </g>
+    <g fill="#45C5BC" opacity="0">
+      <text x="76" y="355">david@davidtorro</text><text x="218" y="355" fill="#718087">:~$</text>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.30;.30;1" dur="10s" calcMode="discrete" repeatCount="1" fill="freeze"/>
+    </g>
+    <rect x="250" y="342" width="8" height="16" fill="#45C5BC" opacity="0">
+      <animate attributeName="opacity" begin="3s" values="1;0;1;0" dur="2.4s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Static version for prefers-reduced-motion. -->
+  <g class="terminal static">
+    <g fill="#45C5BC"><text x="76" y="105">david@davidtorro</text><text x="218" y="105" fill="#718087">:~$</text><text x="250" y="105" fill="#e7edef">whoami</text></g>
+    <text x="76" y="135" fill="#e7edef">David Torró — Full-Stack Software Developer</text>
+    <g fill="#45C5BC"><text x="76" y="180">david@davidtorro</text><text x="218" y="180" fill="#718087">:~$</text><text x="250" y="180" fill="#e7edef">cat stack.md</text></g>
+    <text x="76" y="210" fill="#45C5BC">backend</text><text x="166" y="210" fill="#d5dddf">TypeScript · Node.js · NestJS · Python · FastAPI</text>
+    <text x="76" y="235" fill="#45C5BC">frontend / infra</text><text x="250" y="235" fill="#d5dddf">React · Astro · Linux · Docker · Proxmox · Cloudflare</text>
+    <g fill="#45C5BC"><text x="76" y="280">david@davidtorro</text><text x="218" y="280" fill="#718087">:~$</text><text x="250" y="280" fill="#e7edef">contact --all</text></g>
+    <text x="76" y="310" fill="#9bd8d2">davidtorro.com · linkedin.com/in/david-torró-bautista-52b97a327 · davidtorro.works@gmail.com</text>
+    <g fill="#45C5BC"><text x="76" y="355">david@davidtorro</text><text x="218" y="355" fill="#718087">:~$</text></g>
+    <rect x="250" y="342" width="8" height="16" fill="#45C5BC"/>
+  </g>
+
+  <rect x="50" y="389" width="1100" height="26" rx="12" fill="#20282c"/>
+  <rect x="50" y="389" width="1100" height="13" fill="#20282c"/>
+  <line x1="50" y1="389" x2="1150" y2="389" stroke="#090c0e"/>
+  <g class="terminal" font-size="10" fill="#718087">
+    <text x="76" y="407">UTF-8</text><text x="136" y="407">zsh</text><text x="184" y="407">~/david</text>
+    <text x="1125" y="407" text-anchor="end" fill="#45C5BC">● ready</text>
+  </g>
+</svg>
